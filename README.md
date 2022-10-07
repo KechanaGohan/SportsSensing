@@ -1,15 +1,24 @@
 # SportsSensing
 M5stackCore2を使用した運動促進プロダクト
+
 ![Videotogif](https://user-images.githubusercontent.com/102903015/194477477-780f9adb-0df9-4ed9-b6cf-ea948ea1305a.gif)
+
 M5stackCore2とProcessingを使用し、楽しく運動ができるプロダクト制作に挑戦しました。
+
 M5stackCore2内臓のMPU6886で運動情報を取得し、PCにBluetoothシリアル通信でデータを送信します。
+
 送られたデータはProcessingに反映されます。
+
 ここではM5stackCore2側の機能にフォーカスして記載します。
 # 使用したもの
 M5stackCore2
+
 https://www.switch-science.com/catalog/6530/
+
 Bluetooth接続可能なPC
+
 M5stackCore2装着用のレッグバンド
+
 ※レッグバンドはちょうどいいものがなかったため、100均のものを組み合わせて自作しました
 # 構成イメージ
 M5StackCore2ーー[Bluetoothシリアル通信]ーー＞Python(PC)ーー[OSC通信]ーー＞Processing(PC)
